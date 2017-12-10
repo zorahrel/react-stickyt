@@ -1,0 +1,7 @@
+.box {
+  width: 30vh;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
