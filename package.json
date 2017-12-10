@@ -8,6 +8,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "prepublish": "babel src/stickyt.js --out-dir ./dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
