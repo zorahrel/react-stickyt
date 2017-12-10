@@ -11,13 +11,13 @@ class Sticky extends Component {
   }
 
   componentDidMount() {
-    this.position = this.element.getBoundingClientRect().top;
+    this.setPosition();
     window.addEventListener('scroll', this.onScroll.bind(this));
+    window.addEventListener('resize', this.setPosition.bind(this));
     this.onScroll();
   }
   
   aboveScroll = () => {
-    console.log(this.position - this.offset, window.scrollY)
     return this.position - this.offset < window.scrollY;
   }
 
@@ -29,6 +29,10 @@ class Sticky extends Component {
         this.setStatic();
       }
     }
+  }
+
+  setPosition = () => {
+    this.position = this.element.getBoundingClientRect().top;
   }
 
   setFixed = () => {

@@ -10,13 +10,13 @@ const Docs = () => (
       </Sticky>
     </div>
     <div style={{ marginTop: '35vh', width: '33vw' }}>
-      <Sticky offset={'70'} className='box' style={{ backgroundColor: 'red' }}>
-        OH!
+      <Sticky offset={'105'} className='box' style={{ backgroundColor: 'red' }}>
+        HE!
       </Sticky>
     </div>
     <div style={{ marginTop: '70vh', width: '33vw' }}>
-      <Sticky offset={'105'} className='box' style={{ backgroundColor: 'blue' }}>
-        OH!
+      <Sticky offset={'175'} className='box' style={{ backgroundColor: 'blue' }}>
+        HO!
       </Sticky>
     </div>
   </div>
