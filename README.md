@@ -2,6 +2,12 @@
 
 React Stickyt is just a HOC that wraps your components to let them stick to the `window`.
 
+## Installation
+
+```bash
+yarn add react-stickyt
+```
+
 ## Usage
 
 Let's say you are writing the component `App`. You can write like this:
@@ -22,5 +28,5 @@ const App = () => <div>
 export default App;
 ```
 
-### APIs
+## APIs
 Pass a numberic `offset` prop in px to shift from the top the sticked content.
