@@ -23,4 +23,4 @@ export default App;
 ```
 
 ### APIs
-Pass a numberic `offset` prop to shift from the top the sticked content.
+Pass a numberic `offset` prop in px to shift from the top the sticked content.
